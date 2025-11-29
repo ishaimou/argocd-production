@@ -15,8 +15,6 @@ spec:
       values: |
         image:
           tag: latest
-        ingress:
-          host: devopstoolkitseries.com
       version: v3
   destination:
     namespace: production
@@ -25,4 +23,3 @@ spec:
     automated:
       selfHeal: true
       prune: true
-
